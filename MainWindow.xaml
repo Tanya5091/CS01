@@ -25,6 +25,6 @@
 		<TextBlock Grid.Row="4" Text="{Binding Zodiac, Mode=OneWay}" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
 		<TextBlock Grid.Row="5"  Text="{Binding Chinese, Mode=OneWay}" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
 
-		<!--<fa:ImageAwesome Icon="Refresh" Width="50" Height="50" Spin="True" Visibility="{Binding LoaderVisibility, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Grid.ColumnSpan="5" Grid.RowSpan="5"></fa:ImageAwesome>-->
+		<fa:ImageAwesome Icon="Refresh" Width="50" Height="50" Spin="True" Visibility="{Binding LoaderVisibility, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Grid.ColumnSpan="5" Grid.RowSpan="5"></fa:ImageAwesome>
 	</Grid>
 </Window>
